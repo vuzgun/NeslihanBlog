@@ -430,7 +430,7 @@ ul { list-style: none; }
   background: var(--color-bg-alt);
 }
 
-[class^="elfsight-app-"] {
+.sk-ww-google-reviews {
   min-height: 220px;
   margin-bottom: 44px;
 }
