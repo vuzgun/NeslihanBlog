@@ -430,71 +430,9 @@ ul { list-style: none; }
   background: var(--color-bg-alt);
 }
 
-.review-summary {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 18px;
-  margin-top: 24px;
-}
-.review-score {
-  font-family: var(--font-heading);
-  font-weight: 800;
-  font-size: 2.6rem;
-  color: var(--color-primary);
-}
-.review-summary-details {
-  text-align: left;
-}
-.stars-lg { color: var(--color-accent); font-size: 1.3rem; letter-spacing: 3px; }
-.review-summary-details span {
-  display: block;
-  font-size: 0.85rem;
-  color: var(--color-text-muted);
-  margin-top: 2px;
-}
-
-.reviews-track {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+[class^="elfsight-app-"] {
+  min-height: 220px;
   margin-bottom: 44px;
-}
-
-.review-card {
-  background: var(--color-white);
-  border-radius: var(--radius);
-  padding: 28px;
-  box-shadow: var(--shadow-sm);
-  border-top: 3px solid var(--color-accent);
-}
-.review-card-top {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-.review-card-top > div:nth-child(2) { flex: 1; }
-.review-card-top strong { display: block; font-size: 0.95rem; }
-.review-card-top .stars { color: var(--color-accent); font-size: 0.85rem; letter-spacing: 1px; }
-.avatar {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: var(--color-primary);
-  color: var(--color-white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 0.82rem;
-  flex-shrink: 0;
-}
-.google-badge { flex-shrink: 0; }
-.review-card p {
-  font-size: 0.94rem;
-  color: var(--color-text-muted);
 }
 
 .reviews-cta {
